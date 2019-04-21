@@ -3,7 +3,6 @@
 # Flushing all rules
 
 /usr/sbin/iptables -F
-/usr/sbin/iptables -X
 
 #Set Policy 
 

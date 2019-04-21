@@ -1,0 +1,5 @@
+@reboot /usr/local/sbin/update.sh
+@reboot /usr/local/sbin/Firewall.sh
+0 4 * * 1 root /usr/local/sbin/update.sh
+0 0 * * * root /usr/local/sbin/watch.sh
+
